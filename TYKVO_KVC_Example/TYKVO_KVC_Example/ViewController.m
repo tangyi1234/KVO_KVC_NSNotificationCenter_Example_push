@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TYKVOViewController.h"
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSMutableArray *mArray;
 @end
@@ -53,7 +53,10 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    if (indexPath.row == 0) {
+        TYKVOViewController *vc = [[TYKVOViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

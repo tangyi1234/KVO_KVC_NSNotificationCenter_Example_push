@@ -13,6 +13,8 @@
 		A27E36AF219A7B090003F961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27E36AE219A7B090003F961 /* Assets.xcassets */; };
 		A27E36B2219A7B090003F961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27E36B0219A7B090003F961 /* LaunchScreen.storyboard */; };
 		A27E36B5219A7B090003F961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A27E36B4219A7B090003F961 /* main.m */; };
+		A285652F219BBDD7002F14D3 /* TYKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A285652E219BBDD7002F14D3 /* TYKVOViewController.m */; };
+		A2856532219BBE79002F14D3 /* TYTemplate1.m in Sources */ = {isa = PBXBuildFile; fileRef = A2856531219BBE79002F14D3 /* TYTemplate1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A27E36B1219A7B090003F961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27E36B3219A7B090003F961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27E36B4219A7B090003F961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A285652D219BBDD7002F14D3 /* TYKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYKVOViewController.h; sourceTree = "<group>"; };
+		A285652E219BBDD7002F14D3 /* TYKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYKVOViewController.m; sourceTree = "<group>"; };
+		A2856530219BBE79002F14D3 /* TYTemplate1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTemplate1.h; sourceTree = "<group>"; };
+		A2856531219BBE79002F14D3 /* TYTemplate1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTemplate1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				A27E36A3219A7B090003F961 /* AppDelegate.m */,
 				A27E36A5219A7B090003F961 /* ViewController.h */,
 				A27E36A6219A7B090003F961 /* ViewController.m */,
+				A285652D219BBDD7002F14D3 /* TYKVOViewController.h */,
+				A285652E219BBDD7002F14D3 /* TYKVOViewController.m */,
+				A2856530219BBE79002F14D3 /* TYTemplate1.h */,
+				A2856531219BBE79002F14D3 /* TYTemplate1.m */,
 				A27E36AE219A7B090003F961 /* Assets.xcassets */,
 				A27E36B0219A7B090003F961 /* LaunchScreen.storyboard */,
 				A27E36B3219A7B090003F961 /* Info.plist */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A285652F219BBDD7002F14D3 /* TYKVOViewController.m in Sources */,
 				A27E36A7219A7B090003F961 /* ViewController.m in Sources */,
 				A27E36A4219A7B090003F961 /* AppDelegate.m in Sources */,
 				A27E36B5219A7B090003F961 /* main.m in Sources */,
+				A2856532219BBE79002F14D3 /* TYTemplate1.m in Sources */,
 				A27E36AD219A7B090003F961 /* TYKVO_KVC_Example.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5WRHCE748;
 				INFOPLIST_FILE = TYKVO_KVC_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name-Get-image-processing.TYKVO-KVC-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5WRHCE748;
 				INFOPLIST_FILE = TYKVO_KVC_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name-Get-image-processing.TYKVO-KVC-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
